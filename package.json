@@ -1,0 +1,36 @@
+{
+  "name": "d3-bar",
+  "version": "1.0.0",
+  "description": "A repo for all the experiments I do with D3.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alokreddy/d3.git"
+  },
+  "author": "Alok Kattangoori",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alokreddy/d3/issues"
+  },
+  "homepage": "https://github.com/alokreddy/d3#readme",
+  "dependencies": {
+    "d3": "^6.2.0",
+    "parcel": "^1.12.4",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.21.5",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^2.1.2"
+  }
+}
